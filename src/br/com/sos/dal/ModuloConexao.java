@@ -16,7 +16,7 @@ public class ModuloConexao {
     public static Connection conector() {
         java.sql.Connection conexao = null;
         // a linha abaixo "chamar"  o driver.
-        String driver = "com.mysql.jdbc.Driver";
+        String driver = "com.mysql.cj.jdbc.Driver";
         // armazenando informacoes referente ao banco.
         String url = "jdbc:mysql://localhost:3306/dbservicos";
         String user = "root";
